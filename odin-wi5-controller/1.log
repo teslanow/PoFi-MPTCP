@@ -1,0 +1,112 @@
+10:42:02.332 [main] INFO  n.f.c.module.FloodlightModuleLoader - Loading modules from file ./src/main/resources/floodlightdefault.properties
+10:42:02.336 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting module loader
+10:42:02.339 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.core.FloodlightProvider
+10:42:02.344 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.storage.memory.MemoryStorageSource
+10:42:02.348 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.devicemanager.internal.DeviceManagerImpl
+10:42:02.352 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.linkdiscovery.internal.LinkDiscoveryManager
+10:42:02.354 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.topology.TopologyManager
+10:42:02.363 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.forwarding.Forwarding
+10:42:02.364 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.flowcache.FlowReconcileManager
+10:42:02.367 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.core.OFMessageFilterManager
+10:42:02.368 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher
+10:42:02.369 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.perfmon.PktInProcessingTime
+10:42:02.370 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.perfmon.NullPktInProcessingTime
+10:42:02.370 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.restserver.RestApiServer
+10:42:02.371 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.learningswitch.LearningSwitch
+10:42:02.372 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.hub.Hub
+10:42:02.372 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.jython.JythonDebugInterface
+10:42:02.373 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.counter.CounterStore
+10:42:02.373 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.counter.NullCounterStore
+10:42:02.374 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.threadpool.ThreadPool
+10:42:02.375 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.ui.web.StaticWebRoutable
+10:42:02.376 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.virtualnetwork.VirtualNetworkFilter
+10:42:02.382 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Found module net.floodlightcontroller.odin.master.OdinMaster
+10:42:02.382 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.storage.memory.MemoryStorageSource@5aaa6d82  as provider for net.floodlightcontroller.storage.IStorageSourceService
+10:42:02.383 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher@270421f5  as provider for net.floodlightcontroller.staticflowentry.IStaticFlowEntryPusherService
+10:42:02.383 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.learningswitch.LearningSwitch@2be94b0f  as provider for net.floodlightcontroller.learningswitch.ILearningSwitchService
+10:42:02.383 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.counter.CounterStore@22a71081  as provider for net.floodlightcontroller.counter.ICounterStoreService
+10:42:02.383 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.perfmon.PktInProcessingTime@6aceb1a5  as provider for net.floodlightcontroller.perfmon.IPktInProcessingTimeService
+10:42:02.383 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.odin.master.OdinMaster@1ae369b7  as provider for net.floodlightcontroller.odin.master.OdinMaster
+10:42:02.383 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.restserver.RestApiServer@5d3411d  as provider for net.floodlightcontroller.restserver.IRestApiService
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.core.internal.Controller@23223dd8  as provider for net.floodlightcontroller.core.IFloodlightProviderService
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Setting net.floodlightcontroller.threadpool.ThreadPool@1c53fd30  as provider for net.floodlightcontroller.threadpool.IThreadPoolService
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.storage.memory.MemoryStorageSource
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.learningswitch.LearningSwitch
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.jython.JythonDebugInterface
+10:42:02.386 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.counter.CounterStore
+10:42:02.387 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.perfmon.PktInProcessingTime
+10:42:02.387 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.ui.web.StaticWebRoutable
+10:42:02.387 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.odin.master.OdinMaster
+10:42:02.387 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.restserver.RestApiServer
+10:42:02.387 [main] INFO  n.f.restserver.RestApiServer - REST port set to 8080
+10:42:02.387 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.core.FloodlightProvider
+10:42:02.388 [main] INFO  n.f.core.internal.Controller - OpenFlow port set to 6633
+10:42:02.388 [main] INFO  n.f.core.internal.Controller - Number of worker threads set to 0
+10:42:02.388 [main] INFO  n.f.core.internal.Controller - ControllerId set to localhost
+10:42:02.388 [main] INFO  n.f.core.internal.Controller - Controller roles set to null
+10:42:02.390 [Thread-3] DEBUG n.f.core.internal.RoleChanger - RoleRequestWorker thread started
+10:42:02.391 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Initializing net.floodlightcontroller.threadpool.ThreadPool
+10:42:02.392 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.storage.memory.MemoryStorageSource
+10:42:02.392 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher
+10:42:02.404 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.learningswitch.LearningSwitch
+10:42:02.404 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.jython.JythonDebugInterface
+10:42:02.405 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.counter.CounterStore
+10:42:02.405 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.perfmon.PktInProcessingTime
+10:42:02.405 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.ui.web.StaticWebRoutable
+10:42:02.405 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.odin.master.OdinMaster
+10:42:02.408 [main] INFO  n.f.odin.master.OdinMaster - Detector ip address 192.168.1.200
+10:42:02.409 [main] INFO  n.f.odin.master.OdinMaster - Adding client: 34:e6:ad:db:db:f2 192.168.2.101 00:1B:B3:67:6B:12 mp416
+10:42:02.420 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.restserver.RestApiServer
+10:42:02.420 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.core.FloodlightProvider
+10:42:02.420 [main] DEBUG n.f.core.internal.Controller - Doing controller internal setup
+10:42:02.422 [main] INFO  n.f.core.internal.Controller - Connected to storage source
+10:42:02.422 [main] DEBUG n.f.c.module.FloodlightModuleLoader - Starting net.floodlightcontroller.threadpool.ThreadPool
+10:42:02.422 [main] DEBUG n.f.restserver.RestApiServer - REST API routables: StorageWebRoutable (/wm/storage), StaticFlowEntryWebRoutable (/wm/staticflowentrypusher), LearningSwitchWebRoutable (/wm/learningswitch), PerfWebRoutable (/wm/performance), StaticWebRoutable (/ui/), OdinMasterWebRoutable (/odin), CoreWebRoutable (/wm/core), 
+10:42:02.473 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.storage.IStorageSourceService for service net.floodlightcontroller.storage.memory.MemoryStorageSource@5aaa6d82 into context
+10:42:02.473 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.threadpool.IThreadPoolService for service net.floodlightcontroller.threadpool.ThreadPool@1c53fd30 into context
+10:42:02.473 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.restserver.IRestApiService for service net.floodlightcontroller.restserver.RestApiServer@5d3411d into context
+10:42:02.474 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.perfmon.IPktInProcessingTimeService for service net.floodlightcontroller.perfmon.PktInProcessingTime@6aceb1a5 into context
+10:42:02.474 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.learningswitch.ILearningSwitchService for service net.floodlightcontroller.learningswitch.LearningSwitch@2be94b0f into context
+10:42:02.474 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.counter.ICounterStoreService for service net.floodlightcontroller.counter.CounterStore@22a71081 into context
+10:42:02.474 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.odin.master.OdinMaster for service net.floodlightcontroller.odin.master.OdinMaster@1ae369b7 into context
+10:42:02.475 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.staticflowentry.IStaticFlowEntryPusherService for service net.floodlightcontroller.staticflowentry.StaticFlowEntryPusher@270421f5 into context
+10:42:02.476 [main] DEBUG n.f.restserver.RestApiServer - Adding net.floodlightcontroller.core.IFloodlightProviderService for service net.floodlightcontroller.core.internal.Controller@23223dd8 into context
+10:42:02.547 [main] INFO  o.r.Component.InternalRouter.Server - Starting the Simple [HTTP/1.1] server on port 8080
+10:42:02.560 [main] DEBUG n.f.core.internal.Controller - OFListeners for PACKET_IN: learningswitch,OdinMaster,
+10:42:02.560 [main] DEBUG n.f.core.internal.Controller - OFListeners for ERROR: learningswitch,
+10:42:02.560 [main] DEBUG n.f.core.internal.Controller - OFListeners for FLOW_REMOVED: staticflowentry,learningswitch,
+10:42:02.592 [main] INFO  n.f.core.internal.Controller - Listening for switch connections on 0.0.0.0/0.0.0.0:6633
+10:42:03.732 [debugserver-main] INFO  n.f.jython.JythonServer - Starting DebugServer on port 6655
+10:42:17.252 [New I/O server worker #1-1] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.1:36958
+10:42:17.259 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.1:36958 DPID[?]]
+10:42:17.283 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.1:36958 DPID[?]]
+10:42:17.291 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]] confirms miss length set to 0xffff
+10:42:17.304 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+10:42:17.307 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]] true
+10:42:17.307 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]; processing its static entries
+10:42:17.358 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - Port #1 added for OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]
+10:42:17.358 [New I/O server worker #1-1] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]
+10:42:17.360 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - removeSwitch: OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]
+10:42:17.360 [New I/O server worker #1-1] DEBUG n.f.core.internal.Controller - Update DB with inactiveSW OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]
+10:42:17.361 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]] false
+10:42:17.361 [main] DEBUG n.f.s.StaticFlowEntryPusher - removedSwitch OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]
+10:42:17.361 [New I/O server worker #1-1] INFO  n.f.core.internal.Controller - Disconnected switch OFSwitchImpl [/192.168.1.1:36958 DPID[00:00:8a:0f:48:8c:ca:9d]]
+10:42:17.677 [New I/O server worker #1-2] INFO  n.f.core.internal.Controller - New switch connection from /192.168.1.1:36959
+10:42:17.678 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - HELLO from OFSwitchImpl [/192.168.1.1:36959 DPID[?]]
+10:42:17.688 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - Features Reply from OFSwitchImpl [/192.168.1.1:36959 DPID[?]]
+10:42:17.691 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - Config Reply from OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]] confirms miss length set to 0xffff
+10:42:17.693 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - This controller's role is null, not sending role request msg to null
+10:42:17.694 [main] DEBUG n.f.core.internal.Controller - Dispatching switch update OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]] true
+10:42:17.695 [main] DEBUG n.f.s.StaticFlowEntryPusher - addedSwitch OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]]; processing its static entries
+10:42:21.519 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - Port #2 added for OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]]
+10:42:21.521 [New I/O server worker #1-2] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]]
+10:42:22.526 [pool-3-thread-2] DEBUG n.f.odin.master.OdinMaster - Ping message from: /192.168.1.1
+10:42:22.535 [pool-3-thread-2] INFO  n.f.odin.master.OdinMaster - Adding OdinAgent to map: 192.168.1.1
+10:42:22.535 [pool-3-thread-2] INFO  n.f.odin.master.OdinMaster - 192.168.1.1 is a new agent
+10:42:31.223 [pool-3-thread-4] INFO  n.f.odin.master.OdinMaster - Get probe request from 34:E6:AD:DB:DB:F2 with ssid mp416
+10:42:31.224 [pool-3-thread-4] INFO  n.f.odin.master.OdinMaster - Client: 34:E6:AD:DB:DB:F2 connecting for first time. Assigning to: /192.168.1.1
+10:43:01.228 [pool-3-thread-8] INFO  n.f.odin.master.OdinMaster - Clearing Lvap 34:E6:AD:DB:DB:F2 from agent:/192.168.1.1 due to association not completed
+10:43:33.118 [New I/O server worker #1-2] DEBUG n.f.core.internal.Controller - Port #2 deleted for OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]]
+10:43:33.119 [New I/O server worker #1-2] ERROR n.f.core.internal.Controller - Unhandled OF Message: ofmsg:v=1;t=PORT_STATUS;l=64;x=0 from OFSwitchImpl [/192.168.1.1:36959 DPID[00:00:dc:ef:09:ec:82:ca]]
+10:43:40.536 [Timer-0] ERROR n.f.odin.master.OdinMaster - Agent: /192.168.1.1 has timed out
